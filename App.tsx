@@ -130,7 +130,7 @@ const FaqSection: React.FC<{ items: FaqItem[] }> = ({ items }) => {
             <ChevronDown className={`transition-transform text-zinc-500 ${openIndex === index ? 'rotate-180 text-blue-400' : ''}`} />
           </button>
           {openIndex === index && (
-            <div className="p-5 pt-0 text-zinc-400 border-t border-zinc-800 animate-in fade-in slide-in-from-top-1 duration-200">
+            <div className="px-6 pb-6 pt-4 text-zinc-400 border-t border-zinc-800 animate-in fade-in slide-in-from-top-1 duration-200">
               {item.answer}
             </div>
           )}
