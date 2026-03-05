@@ -51,16 +51,15 @@ const Navbar: React.FC = () => {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-black/90 backdrop-blur-md border-b border-zinc-800 py-3' : 'bg-transparent py-5'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-         <div className="flex flex-col items-start">
-              <span className="georgia-font text-3xl font-medium tracking-tight text-white">Lexora</span>
-              <a 
-                href="https://www.lexora.si/" 
-                className="flex items-center gap-1 text-zinc-500 hover:text-zinc-300 transition-colors text-[10px] uppercase tracking-widest mt-0.5 group"
-              >
-                <ArrowLeft className="w-3 h-3 transition-transform group-hover:-translate-x-0.5" />
-                Nazaj
-              </a>
-            </div>
+          <div className="flex flex-col items-start">
+            <span className="georgia-font text-3xl font-medium tracking-tight text-white">Lexora</span>
+            <a 
+              href="https://www.lexora.si/" 
+              className="flex items-center gap-1 text-zinc-500 hover:text-zinc-300 transition-colors text-[10px] uppercase tracking-widest mt-0.5 group"
+            >
+              <ArrowLeft className="w-3 h-3 transition-transform group-hover:-translate-x-0.5" />
+              Nazaj
+            </a>
           </div>
           
           <div className="hidden md:flex items-center space-x-8 text-sm font-medium">
